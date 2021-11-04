@@ -6,22 +6,25 @@
 <body>
 <center>
 	<div>
-		<div><h3>Registrar usuario</h3></div>
+	
 		<div>
-			<form action="../../../controller/getRegistrarCliente.php" method="POST">
+			<form class="form-registrar"  action="../../../controller/getRegistrarCliente.php" method="POST">
+				<h1 class="form-regitrar__title">Registrar Usuario</h1>
+				<div class="form-registrar__inputs">
 				<p>Nombre</p>
-				<input type="text" name="txtNombre">
+				<input class="form-registrar__inputs" type="text" name="txtNombre">
 				<p>Apellidos</p>
-				<input type="text" name="txtApellido">
+				<input class="form-registrar__inputs" type="text" name="txtApellido">
 				<p>Celular</p>
-				<input type="text" name="txtCelular">
+				<input class="form-registrar__inputs" type="text" name="txtCelular">
 				<p>Correo Electrónico</p>
-				<input type="text" name="txtCorreo">
+				<input class="form-registrar__inputs" type="text" name="txtCorreo">
 				<p>Contraseña</p>
-				<input type="password" name="txtPass1">
+				<input class="form-registrar__inputs" type="password" name="txtPass1">
 				<p>Vuelva a escribir su contraseña</p>
-				<input type="password" name="txtPass2"><br><br>
-				<input type="submit" name="registrar" value="Registrar">
+				<input class="form-registrar__inputs" type="password" name="txtPass2"><br><br>
+				</div>
+				<input type="submit"class="form-registrar__action" name="registrar" value="Registrar">
 
 			</form>
 		</div>
