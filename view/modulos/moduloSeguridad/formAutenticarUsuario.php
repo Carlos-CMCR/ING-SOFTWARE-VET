@@ -10,25 +10,22 @@
                             <title>Ingresar</title>
                         </head>
                         <body class="login">
-                            
-                       
-                       
-
-                        <br/><br/>  
+                        
                         <div class="card bg-light mb-3" style="max-width: 20rem;">
                             <div class="card-header"><h5 class="card-title">Iniciar Sesión</h5></div>
                                 <div class="card-body">
-                                    
+                                    <div class="card-body_text">
                                     <form action="../../../controller/getUsuario.php" method="POST" >
                                         <p>Usuario:</p><input type="text" name="usuario" id="usuario"><br/>
                                         
                                         <p>Contraseña:</p><input type="password" name="password" id="password"><br/><br/>
 
                                         <div class="button-center"><input type="submit" class="btn btn-primary"  name="btnIngresar" id="btnIngresar" value="Ingresar"></div>
-                                    </form>
-                                    <div class="link-log">
-                                        <a href="formVerificarUsuario.php" >Recordar Contraseña</a>
+                                    </form></div>
+                                    <div>
+                                    <a href="../inicio.php" id="links">Atras</a> <a href="formVerificarUsuario.php" id="links">Recordar Contraseña</a>
                                     </div>
+                                    
                                     
 
 

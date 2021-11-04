@@ -75,11 +75,8 @@ h3 {
   display: flex;
 }
 
-img{
-  display: block;
-  margin: auto;
-}
 .login{
+  
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
@@ -90,20 +87,22 @@ img{
   background-color: #85C1E9
 }
 .card {
- 
+  
+  margin-top: 5rem;
   box-shadow: 10px 10px 15px black;
 }
+
 h5 {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
 .link-log {
-  padding: 2.5 rem;
   text-align:center ;}
 .button-center{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem;
+  padding: 1rem;
 }
