@@ -12,7 +12,7 @@
                         <body class="login">
                             
                        
-                        <img src="../../img/bannercama.jpg" alt="Banner" width="640" height="180">
+                       
 
                         <br/><br/>  
                         <div class="card bg-light mb-3" style="max-width: 20rem;">

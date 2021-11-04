@@ -89,6 +89,15 @@ img{
   align-items: center;
   background-color: #85C1E9
 }
+.card {
+ 
+  box-shadow: 10px 10px 15px black;
+}
+h5 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 .link-log {
   padding: 2.5 rem;
   text-align:center ;}
