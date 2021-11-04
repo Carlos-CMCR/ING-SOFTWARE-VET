@@ -87,9 +87,16 @@ h3 {
   background-color: #85C1E9
 }
 .card {
-  
+  align-items: center;
+  text-align: center;
   margin-top: 5rem;
   box-shadow: 10px 10px 15px black;
+}
+
+.card img {
+
+  
+  width : 130px;
 }
 
 h5 {
@@ -104,8 +111,7 @@ h5 {
   display: flex;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
-  padding: 1.5rem;
+   padding: 1.5rem;
 }
 /* estilos para regitrar*/
 .form-regitrar {
@@ -169,7 +175,3 @@ h5 {
   background-color: rgb(13, 50, 112);
   transform: scale(1.1);
 }
-=======
-  padding: 1rem;
-}
->>>>>>> 83b87b54866ee2a6ab279be39baeadae11df451a

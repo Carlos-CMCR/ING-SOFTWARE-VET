@@ -41,7 +41,7 @@
             <!-- SERVICIO NUMERO 1 -->
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/consulta.jpg" class="card-img-top" alt="...">
+                    <img src="../img/consulta.jpg" class="align-items: center" alt="..."  >
                     <div class="card-body">
                     <h5 class="card-title">Consulta Veterinaria</h5>
                     <p class="card-text">En Vet-Spa, contamos con el personal médico más completo para la consulta veterinaria de su mascota, siempre estará en manos de los mejores profesionales.</p>
