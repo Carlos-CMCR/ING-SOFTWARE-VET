@@ -9,13 +9,10 @@
 	<link rel="stylesheet" href="../estilos.css">
 
 </head>
-<body>
-<center>
-	<div>
-	
-		<div>
-			<form class="form-registrar"  action="../../../controller/getRegistrarCliente.php" method="POST">
-				<h1 class="form-regitrar__title">Registrar Usuario</h1>
+<body class="login">
+	<div class="card bg-light mb-3" style="max-width: 20rem">
+			<form class="form-control"  action="../../../controller/getRegistrarCliente.php" method="POST">
+				<h5 class="form-regitrar__title">Registrar Usuario</h5>
 				<div class="form-registrar__inputs">
 				<p>Nombre</p>
 				<input class="form-registrar__inputs" type="text" name="txtNombre">
@@ -35,7 +32,9 @@
 			</form>
 		</div>
 	</div>
-
-</center>
 </body>
 </html>
+
+		
+
+

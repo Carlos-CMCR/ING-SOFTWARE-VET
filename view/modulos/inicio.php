@@ -41,7 +41,7 @@
             <!-- SERVICIO NUMERO 1 -->
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/consulta.jpg" class="align-items: center" alt="..."  >
+                    <img src="../img/consulta.jpg" class="card-img-top" alt="..."  >
                     <div class="card-body">
                     <h5 class="card-title">Consulta Veterinaria</h5>
                     <p class="card-text">En Vet-Spa, contamos con el personal médico más completo para la consulta veterinaria de su mascota, siempre estará en manos de los mejores profesionales.</p>
@@ -52,7 +52,7 @@
             <!-- SERVICIO NUMERO 2 -->
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/farma.jpg" class="card-img-top" width="200" height="100" alt="...">
+                    <img src="../img/farma.jpg" class="card-img-top"  alt="...">
                     <div class="card-body">
                     <h5 class="card-title">Farmacia Veterinaria</h5>
                     <p class="card-text">En Vet-Spa,contamos con una amplia variedad de medicamentos para todas las especies, asesoramos en el uso y damos alternativas con medicamentos equivalentes..</p>
@@ -72,6 +72,43 @@
                 </div>
             </div>
             
+           <!-- SERVICIO NUMERO 4 -->
+           <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/juguetes.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Juguetes y Accesorios</h5>
+                    <p class="card-text">Tenemos una amplia gama de jugetes ya accesorios para para todo tipo de mascotas, educación continua tanto del personal como de nuestros clientes para lograr “propietarios responsables” en un ambiente agradable, sano y siempre con un trato respetuoso.</p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SERVICIO NUMERO 5 -->
+           <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/vacuna.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Vacunación y desparasitaciones en perros y gatos </h5>
+                    <p class="card-text">La vacunación en perros y gatos es un aspecto importante a considerar siempre que tengamos una mascota, es un tratamiento preventivo para algunas enfermedades. </p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+             <!-- SERVICIO NUMERO 6 -->
+           <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/dental.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Limpieza Dental </h5>
+                    <p class="card-text">El cuidado es los dientes de su mascota es fundamental para una buena calidad de vida. Las mascotas no son ajenas a contraer caries, placa dental, enfermedad periodontal o inclusive la pérdida de dientes. Podemos evitarlon con la correcta higiene y limpieza dental periódica hecha por un veterinario. </p>
+                    <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+        
 
             
         </div>
