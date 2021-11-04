@@ -86,10 +86,18 @@ h3 {
   align-items: center;
   background-color: #85C1E9
 }
+
 .card {
-  
+  align-items: center;
+  text-align: center;
   margin-top: 5rem;
   box-shadow: 10px 10px 15px black;
+}
+
+.card img {
+
+  
+  width : 130px;
 }
 
 h5 {
