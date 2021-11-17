@@ -2,7 +2,6 @@ body {
    background-image: url('view/img/background.jpg');
 }
 /* ESTILOS PARA MENU DE NAVEGACION */
-
 .container img {
    width: 10%;
 }
@@ -24,11 +23,7 @@ body {
 /* MENU PRINCIPAL */
 .banner img {
    width: 100%;
-<<<<<<< HEAD
    height: 90vh;
-=======
-   height: 600px;
->>>>>>> d55847016de8d440cd5d36ff932d4cec00183d4c
 }
 
 /* QUIENES SOMOS */
@@ -57,7 +52,6 @@ body {
    max-width: 150px;
    margin: 20px auto 0 auto;
    margin-top: 25px;
-<<<<<<< HEAD
 }
 .servicios {
    margin-top: 80px;
@@ -69,19 +63,6 @@ body {
    padding-top: 25px;
    color: white;
 }
-=======
-}
-.servicios {
-   margin-top: 80px;
-   background-color: #252b37;
-   padding-bottom: 45px;
-}
-.servicios .titulo {
-   text-align: center;
-   padding-top: 25px;
-   color: white;
-}
->>>>>>> d55847016de8d440cd5d36ff932d4cec00183d4c
 
 /* estilos para barra de redes sociales */
 
@@ -126,7 +107,6 @@ body {
 }
 
 /* estilos para el footer */
-<<<<<<< HEAD
 .contenedor-footer {
    margin-top: 70px;
    background-color: #252b37;
@@ -139,7 +119,6 @@ body {
 .fa-envelope {
    margin-right: 5px;
 }
-=======
 .footer p {
    overflow: hidden;
    text-align: center;
@@ -152,7 +131,6 @@ body {
    display: flex;
 }
 
->>>>>>> d55847016de8d440cd5d36ff932d4cec00183d4c
 /* LOGIN */
 .login {
    width: 100%;

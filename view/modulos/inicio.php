@@ -135,18 +135,7 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1378.6986415758602!2d-76.93542389364704!3d-12.211085706613103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b95937ebb471%3A0x62826f99ad4515f3!2sVeterinaria%20Happy%20Pet!5e0!3m2!1ses!2spe!4v1635960932095!5m2!1ses!2spe" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
     </div>
-<<<<<<< HEAD
-    
-=======
-    <!-- FOOTER -->
 
-    <footer class="footer">
-            
-            
-    </footer>
->>>>>>> d55847016de8d440cd5d36ff932d4cec00183d4c
-
-    
 
 
 
