@@ -1,6 +1,6 @@
 <?php
     include "view/modulos/encabezado.php";
-    include "view/modulos/menu.php";
+    
    
 
     if (isset($_GET['ruta'])) {

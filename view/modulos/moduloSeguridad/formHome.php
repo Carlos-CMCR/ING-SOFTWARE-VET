@@ -119,6 +119,11 @@
             <?php
         }
 
+        public function formCLiente(){
+
+            include_once("../view/modulos/inicio2.php");
+        }
+
         public function FormHomeDownShow(){
             ?>
                 </center>

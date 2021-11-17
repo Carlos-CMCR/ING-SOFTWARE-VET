@@ -14,11 +14,12 @@
 */
                     include_once("../view/modulos/moduloSeguridad/formHome.php");
                     $objFormhome = new FormHome;
-                    $objFormhome -> FormHomeUpShow();
-                    $objFormhome -> RegistrarMascota();
-                    $objFormhome -> FormCerrarSesion();
-                    $objFormhome -> FormCambiarClave();
-                    $objFormhome -> FormHomeDownShow();
+                    //$objFormhome -> FormHomeUpShow();
+                   // $objFormhome -> RegistrarMascota();
+                    //$objFormhome -> FormCerrarSesion();
+                    //$objFormhome -> FormCambiarClave();
+                    //$objFormhome -> FormHomeDownShow();
+                    $objFormhome -> formCLiente();
                     
                     break;
 
