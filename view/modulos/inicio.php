@@ -23,11 +23,32 @@
     <img src="view/img/bannercama.jpg" alt="">
     </div>
 
-    <!-- SERVICIOS -->
-    <h3>Nuestros Servicios</h3>
+    <!-- QUIENES SOMOS -->
+    
+    <div class="contenedor container">
+    <div class="row">
+    <div class="descripcion col-6">
+        <p class="titulo">Quiénes Somos</p>
+        <p>Somos la clínica veterinaria número 1 de todo el Perú, tenemos más de 50 años dedicados al cuidado y atención de las mascotas. Ofreciendo servicios de peluquería para mascotas, consultas de especialidad, pet shop y emergencias las 24 horas.</p>
+        <p>Disponemos de las mejores instalaciones y el personal mejor capacitado para garantizar el bienestar de tu mascota.</p>   
+        <p>
+        Tu tranquilidad y la salud de tu engreído estarán en las mejores manos, porque tú y tu mascota al entrar por las puertas de nuestra clínica, pasarán a formar parte de nuestra gran familia.</p>
+    </div>
+    <div class="img-contenedor col-6"><img src="view/img/nosotros.jpg" alt=""></div>
+    </div>
+    </div>
 
-    <div class="container">
+    <!-- SERVICIOS -->
+    
+    <div class="servicios">
+    <h3 class="titulo">Nuestros Servicios</h3>
+    <div class="separador">
+    </div>
+    <div class="contenedor container">
         <div class="row">
+        
+        
+        
             <!-- SERVICIO NUMERO 1 -->
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
@@ -101,17 +122,19 @@
         
 
             
-        </div>
+        </div></div>
     </div>
     
 
     <!-- UBICACIÓN -->
-
-    <h3>Visitanos</h3>
+    <div class="contenedor">
+    <h3 class="titulo">Visitanos</h3>
+    <div class="separador">
+    </div>
     <div class="container-mapa">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1378.6986415758602!2d-76.93542389364704!3d-12.211085706613103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b95937ebb471%3A0x62826f99ad4515f3!2sVeterinaria%20Happy%20Pet!5e0!3m2!1ses!2spe!4v1635960932095!5m2!1ses!2spe" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
-    
+    </div>
     <!-- FOOTER -->
 
     <footer class="footer">
