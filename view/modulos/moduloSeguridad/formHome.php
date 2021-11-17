@@ -124,6 +124,11 @@
             include_once("../view/modulos/inicio2.php");
         }
 
+        public function formAdmin(){
+
+            include_once("../view/modulos/inicio3.php");
+        }
+
         public function FormHomeDownShow(){
             ?>
                 </center>
