@@ -1,5 +1,5 @@
 body {
-   background-image: url('view/img/background.jpg');
+   background-image: url('../view/img/background.jpg');
 }
 /* ESTILOS PARA MENU DE NAVEGACION */
 .container img {

@@ -44,7 +44,7 @@
         <p>
         Tu tranquilidad y la salud de tu engreído estarán en las mejores manos, porque tú y tu mascota al entrar por las puertas de nuestra clínica, pasarán a formar parte de nuestra gran familia.</p>
     </div>
-    <div class="img-contenedor col-6"><img src="../img/nosotros.jpg" alt=""></div>
+    <div class="img-contenedor col-6"><img src="../view/img/nosotros.jpg" alt=""></div>
     </div>
     </div>
 
