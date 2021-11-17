@@ -139,18 +139,7 @@ body {
    display: flex;
 }
 
-/* LOGIN */
-.login {
-   width: 100%;
-   max-width: 600px;
-   margin: 0 auto;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   background-color: #85c1e9;
-   padding-top: 60px;
-}
+
 
 /* TARJETAS PARA LOS SERVICIOS */
 .card {
