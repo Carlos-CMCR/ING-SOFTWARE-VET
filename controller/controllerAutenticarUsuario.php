@@ -30,12 +30,13 @@
 */
                     include_once("../view/modulos/moduloSeguridad/formHome.php");
                     $objFormhome = new FormHome;
-                    $objFormhome -> FormHomeUpShow();
-                    $objFormhome -> FormGestionarUsuario();
-                    $objFormhome -> FormGestionarProductos();
-                    $objFormhome -> FormCerrarSesion();
-                    $objFormhome -> FormCambiarClave();
-                    $objFormhome -> FormHomeDownShow();
+                    //$objFormhome -> FormHomeUpShow();
+                    //$objFormhome -> FormGestionarUsuario();
+                    //$objFormhome -> FormGestionarProductos();
+                    //$objFormhome -> FormCerrarSesion();
+                    //$objFormhome -> FormCambiarClave();
+                    //$objFormhome -> FormHomeDownShow();
+                    $objFormhome -> formAdmin();
 
                     break;
                 
