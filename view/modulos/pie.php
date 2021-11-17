@@ -13,26 +13,16 @@
 </head>
 <body>
     
-<!-- MENU DE NAVEGACIÓN -->
 
-<div class="contenedor-principal">
+<div class="contenedor-footer">
 
-    <center>
-    <footer class="main-footer">
-    <strong>CONTÁCTANOS<p></p></strong>
-      <strong>email: <a href="http:www.google.com">villaanimal@gmail.com</a></strong><p></p>
-
-      <strong><a href="http:www.google.com">VETSPA VILLA ANIMAL SUR</a></strong><p></p>
-
-    All rights reserved.
-    <div class="float-right d-none d-sm-inline-block">
-      <b>Versión de pag.</b> 1.0.0
-    </div><br><br>
-    <div>
+    
+    <footer>
+    <i class="fas fa-envelope"></i>villaanimal@gmail.com
+      <p>Versión de pag. 1.0.0</p> 
     	<p>Copyright © 2021 VETSPA - Todos los derechos reservados</p>
-    </div>
-  </footer>
-  </center>
+    </footer>
+  
 
 </div>
 
