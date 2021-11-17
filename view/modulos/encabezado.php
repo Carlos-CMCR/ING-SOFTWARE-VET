@@ -14,8 +14,8 @@
                     <a href=""><img src="view/img/logo.png" alt=""></a>
             <div class="collapse navbar-collapse">
                  <div class="navbar-nav ms-auto">
-                 <a href="view\modulos\moduloSeguridad/formAutenticarUsuario.php" class="nav-link">INGRESAR</a>
-                    <a href="view/modulos/moduloSeguridad/formRegistrarCLiente.php" class="nav-link">REGISTRARSE</a>
+                 <a href="view/modulos/moduloSeguridad/formAutenticarUsuario.php" class="nav">INGRESAR</a>
+                    <a href="view/modulos/moduloSeguridad/formRegistrarCLiente.php" class="nav">REGISTRARSE</a>
                  </div>
             </div>
         </div>
