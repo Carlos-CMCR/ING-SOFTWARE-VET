@@ -162,7 +162,15 @@
 
 </div>
 
+<!-- Barra flotante para redes-sociales -->
 
+<div class="social">
+            <ul>
+            <li><a href="https://www.facebook.com/richard.villaanimal.5" class="fa fa-facebook-square" target="blank"></a></li>
+            <li><a href="https://www.instagram.com" class="fa fa-instagram" target="blank"></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=940636329&text=" class="fa fa-whatsapp" target="blank"></a></li>
+            </ul>
+        </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
