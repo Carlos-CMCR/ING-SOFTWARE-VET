@@ -13,7 +13,7 @@
         }
         public function FormCambiarClave(){
             ?>
-                <form action="../moduloSeguridad/getCambiarClave.php" method="POST">
+                <form action="../controller/getCambiarClave.php" method="POST">
                     <input type="submit" name="btnCambiarClave" id="btnCambiarClave" value="Cambiar Clave">
                 </form>
             <?php
@@ -85,6 +85,15 @@
                 </form>
             <?php
         }
+
+        public function FormGestionarProductos(){
+            ?>
+                <form action="getGestionarProductos.php" method="POST">
+                    <input type="submit" name="btnGestionarProductos" id="btnGestionarProductos" value="Gestionar Productos">
+                </form>
+            <?php
+        }
+
         
         public function FormDespacharBoleta(){
             ?>
@@ -96,7 +105,7 @@
 
         public function FormCerrarSesion(){
             ?>
-                <form action="../moduloSeguridad/getCerrarSesion.php" method="POST">
+                <form action="../controller/getCerrarSesion.php" method="POST">
                     <input type="submit" name="btnCerrarSesion" id="btnCerrarSesion" value="Cerrar Sesion" />
                 </form>
             <?php 

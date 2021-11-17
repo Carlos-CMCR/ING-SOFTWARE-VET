@@ -11,7 +11,7 @@
 <body>
 <nav class="menu navbar navbar-expand-lg navbar-light">
         <div class="container">      
-                    <a href=""><img src="../img/logo.png" alt=""></a>
+                    <a href=""><img src="view/img/logo.png" alt=""></a>
             <div class="collapse navbar-collapse">
                  <div class="navbar-nav ms-auto">
                  <a href="view\modulos\moduloSeguridad/formAutenticarUsuario.php" class="nav-link">INGRESAR</a>

@@ -175,5 +175,20 @@
 				 return $data;
 			}
 
+		public function agregarCliente($nombre,$apellido,$dni,$celular,$correo,$pass){
+
+			$SQL = "INSERT INTO usuario (nombres,apellidos,num_doc,celular,correo,pass_user,estado_cuenta) VALUES ('$nombre','$apellido','$dni','$celular','$correo','$pass','activo')";
+			$resultado = mysqli_query($this->conectar(),$SQL);
+			$SQL = "SELECT usuario.idusuario FROM usuario WHERE num_doc='$dni' ";
+			$resultado = mysqli_query($this->conectar(),$SQL);
+			$row = mysqli_fetch_array($resultado, MYSQLI_ASSOC);
+			$idusuario=$row['idusuario'];
+			$idrol=1;
+			$SQL2 = "INSERT INTO detalle_rol (idusuario,idrol) VALUES ('$idusuario','$idrol')";
+			$resultado2 = mysqli_query($this->conectar(),$SQL2);
+			if($resultado == true) return (1);
+			else return (0);
+		}
+
     }    
 ?>

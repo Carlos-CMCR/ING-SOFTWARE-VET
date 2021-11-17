@@ -1,37 +1,63 @@
 <?php
 	
 
-	if (isset($_POST['registrar'])) {
-		$nombre=$_POST['txtNombre'];
+	
+		$nombre=$_POST['txtNombre'];		
 		$apellido=$_POST['txtApellido'];
+		$dni=$_POST['txtDni'];
 		$celular=$_POST['txtCelular'];
 		$correo=$_POST['txtCorreo'];
-		$pass1=$_POST['txtPass1'];
-		$pass2=$_POST['txtPass2'];
-
-		include_once("../view/modulos/moduloSeguridad/formRegistrarMascota.php");
-	}
-	elseif (isset($_POST['registrarMascota'])) {
-
-		$nombreMascota=$_POST['txtNombreMascota'];
-		$edad=$_POST['txtEdad'];
-		$vacunas=$_POST['txtVacunas'];
-		$raza=$_POST['txtRaza'];
-
-		echo "Datos capturados";
-		echo $nombre;
-		echo $apellido;
-		echo $nombreMascota;
-		echo $raza;
 		
-	}
-	else
-	{
-		echo "Datos capturados";
-		echo $nombre;
-		echo $apellido;
-		echo $NombreMascota;
-		echo $raza;
-	}
+
+
+
+		
+		
+
+		
+
+		//VALIDACIÓN DE LOS CAMPOS DE LOS FORMULARIOS Y ENVIÓ A LA BD
+		if(empty($_POST['txtNombre']) || empty($_POST['txtApellido']) || empty($_POST['txtDni']) || empty($_POST['txtCelular']) || empty($_POST['txtCorreo']) || empty($_POST['txtPass1']) || empty($_POST['txtPass2'])){
+			
+			include_once("../shared/formMensajeSistema.php");
+            $mensaje = new formMensajeSistema;
+            $mensaje ->formMensajeSistema();
+            $mensaje ->formMensajeSistemaShow("Ingrese todos los campos","<a href='../view/modulos/moduloSeguridad/formRegistrarCLiente.php'>Atrás</a>");
+		}elseif (!isset($_POST['check'])) {
+			include_once("../shared/formMensajeSistema.php");
+            $mensaje = new formMensajeSistema;
+            $mensaje ->formMensajeSistema();
+            $mensaje ->formMensajeSistemaShow("No ha acepado los términos y condiciones","<a href='../view/modulos/moduloSeguridad/formRegistrarCLiente.php'>Atrás</a>");
+		}
+		 elseif (filter_var($correo, FILTER_VALIDATE_EMAIL)){
+
+			if (trim($_POST['txtPass1'])==trim($_POST['txtPass2'])) {
+				
+				$nombre=$_POST['txtNombre'];		
+				$apellido=$_POST['txtApellido'];
+				$dni=$_POST['txtDni'];
+				$celular=$_POST['txtCelular'];
+				$correo=$_POST['txtCorreo'];
+				$pass=trim($_POST['txtPass1']);
+
+				include_once("controllerRegistroCliente.php");
+				$registro= new controllerRegistro;
+				$registro-> registrarCLiente($nombre,$apellido,$dni,$celular,$correo,$pass);
+			} else {
+				include_once("../shared/formMensajeSistema.php");
+		            $mensaje = new formMensajeSistema;
+		            $mensaje ->formMensajeSistema();
+		            $mensaje ->formMensajeSistemaShow("Ingrese correctamente las contraseñas","<a href='../view/modulos/moduloSeguridad/formRegistrarCLiente.php'>Atrás</a>");
+			}
+			
+		}else{
+			include_once("../shared/formMensajeSistema.php");
+            $mensaje = new formMensajeSistema;
+            $mensaje ->formMensajeSistema();
+            $mensaje ->formMensajeSistemaShow("Correo inválido","<a href='../view/modulos/moduloSeguridad/formRegistrarCLiente.php'>Atrás</a>");
+		}
+
 
 ?>
+
+		

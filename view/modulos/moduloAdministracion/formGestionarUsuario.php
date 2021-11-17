@@ -90,8 +90,11 @@ class formGestionarUsuarios extends formulario
                                 <input type="hidden" name="password" value="<?php echo $_SESSION['pass_user'] ?>">
                                 
                             </form>
-                            <form action='../moduloSeguridad/getPassword.php' method='POST'>
+                            <form action='../controller/getPassword.php' method='POST'>
                                 <input type='submit' class='btn btn-dark'  name='btnAtras' id='btnAtras' value='Atras'>
+                            </form>
+                            <form action='../controller/getCerrarSesion.php' method='POST'>
+                                <input type='submit' class='btn btn-danger'  name='btnCerrarSesion' id='btnAtras' value='Cerrar sesión'>
                             </form>
 
                             <!--<form><input class="btn btn-dark" type="submit" name="btnIngresar" value="Atras"></form>-->

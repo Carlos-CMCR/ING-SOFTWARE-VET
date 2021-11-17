@@ -31,6 +31,7 @@
                     $objFormhome = new FormHome;
                     $objFormhome -> FormHomeUpShow();
                     $objFormhome -> FormGestionarUsuario();
+                    $objFormhome -> FormGestionarProductos();
                     $objFormhome -> FormCerrarSesion();
                     $objFormhome -> FormCambiarClave();
                     $objFormhome -> FormHomeDownShow();

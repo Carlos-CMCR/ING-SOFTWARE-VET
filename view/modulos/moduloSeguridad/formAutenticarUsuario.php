@@ -16,14 +16,14 @@
                                 <div class="card-body">
                                     <div class="card-body_text">
                                     <form action="../../../controller/getUsuario.php" method="POST" >
-                                        <p>Usuario:</p><input type="text" name="usuario" id="usuario"><br/>
+                                        <p>Usuario DNI:</p><input type="text" name="usuario" id="usuario"><br/>
                                         
                                         <p>Contraseña:</p><input type="password" name="password" id="password"><br/><br/>
 
                                         <div class="button-center"><input type="submit" class="btn btn-primary"  name="btnIngresar" id="btnIngresar" value="Ingresar"></div>
                                     </form></div>
                                     <div>
-                                    <a href="../inicio.php" id="links">Atras</a> <a href="formVerificarUsuario.php" id="links">Recordar Contraseña</a>
+                                    <a href="../../../index.php" id="links">Atras</a> <a href="formVerificarUsuario.php" id="links">Recordar Contraseña</a>
                                     </div>
                                     
                                     

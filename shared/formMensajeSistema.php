@@ -4,7 +4,7 @@
 
 	class formMensajeSistema extends formulario{
 		public function formMensajeSistema()		{
-			$this -> encabezadoShowIni("Mensaje | King&Queen","../img/ico.png");
+			$this -> encabezadoShowIni("Vetspa Villa Animal","../img/ico.png");
 		}
 		public function formMensajeSistemaShow($mensaje,$enlace){
 			?>
