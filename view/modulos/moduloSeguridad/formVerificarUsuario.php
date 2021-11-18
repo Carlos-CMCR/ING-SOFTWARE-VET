@@ -28,7 +28,7 @@
     
     <div class="d-flex justify-content-center">               
     <div class="card mt-5 " style="width: 18rem;">
-        <div class="card-header d-flex justify-content-center "><h5 class="card-title">Iniciar Sesión</h5></div>
+        <div class="card-header d-flex justify-content-center "><h5 class="card-title">Recordar contraseña</h5></div>
         <div class="card-body">
         <form action="../../../controller/getLogin.php" method="POST">
         <div class="mb-3">
