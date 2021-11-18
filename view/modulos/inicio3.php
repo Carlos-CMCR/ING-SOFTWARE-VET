@@ -14,6 +14,7 @@
     
 <!-- MENU DE NAVEGACIÓN -->
 
+
 <div class="contenedor-principal">
     
 
@@ -30,9 +31,7 @@
     </nav>
 
     <!-- MENU PRINCIPAL -->
-    <div class="banner">
-    <img src="../view/img/bannercama.jpg" alt="">
-    </div>
+    
 
             <?php
                 include_once ("moduloSeguridad/formHome.php");
@@ -46,13 +45,7 @@
 
     
 
-    <div class="contenedor-footer">    
-        <footer>
-        <i class="fas fa-envelope"></i>villaanimal@gmail.com
-          <p>Versión de pag. 1.0.0</p> 
-            <p>Copyright © 2021 VETSPA - Todos los derechos reservados</p>
-        </footer>
-    </div>
+  
 
 
 </div>

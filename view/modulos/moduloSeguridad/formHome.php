@@ -2,6 +2,29 @@
     
     include_once("../shared/formulario.php");
 
+    ?>
+
+    <style>
+    
+    .button{
+        margin-left: 40%;
+        top: 0;
+        z-index: 100;
+    }
+    .button .btn {
+        background: #252b37;
+        color: white;
+        margin-top: 65px;
+     }
+     .button .btn:hover {
+        background: #80bcc6;
+        color: black;
+        transition: 0.5s;
+     }
+     
+    </style>
+
+    <?php
     class FormHome extends formulario{
 
         public function FormEmitirProforma(){
@@ -81,7 +104,7 @@
         public function FormGestionarUsuario(){
             ?>
                 <form action="getGestionarUsuario.php" method="POST">
-                    <input type="submit" name="btnGestionarUsuario" id="btnGestionarUsuario" value="Gestionar Usuario">
+                <div class="button"><input type="submit" class="btn"  name="btnGestionarUsuario" id="btnGestionarUsuario" value="GESTIONAR USUARIO"></div>
                 </form>
             <?php
         }
@@ -89,7 +112,7 @@
         public function FormGestionarProductos(){
             ?>
                 <form action="getGestionarProductos.php" method="POST">
-                    <input type="submit" name="btnGestionarProductos" id="btnGestionarProductos" value="Gestionar Productos">
+                <div class="button"><input type="submit" class="btn"  name="btnGestionarProductos" id="btnGestionarProductos" value="GESTIONAR PRODUCTO"></div>
                 </form>
             <?php
         }
@@ -106,7 +129,7 @@
         public function FormCerrarSesion(){
             ?>
                 <form action="../controller/getCerrarSesion.php" method="POST">
-                    <input type="submit" name="btnCerrarSesion" id="btnCerrarSesion" value="Cerrar Sesion" />
+                <div class="button"><input type="submit" class="btn"  name="btnCerrarSesion" id="btnCerrarSesion" value="CERRAR SESIÓN"></div>
                 </form>
             <?php 
         }
