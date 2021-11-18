@@ -1,69 +1,58 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    background-image: url('../view/img/background-acceso.jpg');
+    background-size: 100% auto;
+ }
+ 
+ .container img {
+     width: 10%;
   }
-  
-  body {
-    background-image: url("../view/img/background.jpg");
-    width: 100%;
-    height: auto;
-    
+  .menu .navbar-nav .nav-link {
+     color: #c6d7e3;
   }
-  
-  .form-register {
-    width: 400px;
-    background: #252b37;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: white;
-    box-shadow: 7px 13px 37px #000;
+  .menu {
+     background: #252b37;
   }
-  
-  .form-register h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
+  .navbar-nav .nav {
+     text-decoration: none;
+     padding-right: 10px;
+     color: white;
   }
-  
-  .controls {
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: 'calibri';
-    font-size: 18px;
-    color: white;
+  .navbar-nav .nav:hover {
+     color: #85d3de;
+     transition: 0.5s;
   }
+ 
+ 
+  /* ESTILOS INICIO---- */
+  .background-acceso{
+     background-image: url("../view/img/background-acceso.jpg");
+     background-size:100% auto;
+     
+ }
+ .botons {
+     width: 50%;
+     background: #1f53c5;
+     border: none;
+     padding: 12px;
+     color: white;
+     margin: 16px 0;
+     font-size: 16px;
+   }
+ .card-header{
+     background: #252b37;
+     color: white;
+ }
+ /*.login {
+     width: 100%;
+     max-width: 600px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+     padding-top: 60px;
+  }*/
   
-  .form-register p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-  }
-  
-  .form-register a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .form-register a:hover {
-    color: white;
-    text-decoration: underline;
-  }
-  
-  .form-register .botons {
-    width: 100%;
-    background: #1f53c5;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-  }
-  
+ 
+ 
