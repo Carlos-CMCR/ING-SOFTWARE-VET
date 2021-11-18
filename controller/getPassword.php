@@ -24,9 +24,7 @@
             
             if($password==$_SESSION["contrasena"]){
                 include_once("../view/modulos/moduloSeguridad/formCambiarClave.php");
-                $visualizar = new formCambiarClave;
-                $visualizar -> EncabezadoShow();
-                $visualizar -> formCambiarClaveShow();
+                
                 
 
             }else{
