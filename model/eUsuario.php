@@ -30,7 +30,7 @@
 			$SQL="SELECT respuesta FROM usuario WHERE num_doc='$log' and estado_cuenta='activo';";
 			$resultado = mysqli_query($this->conectar(),$SQL);
 			$row = mysqli_fetch_array($resultado, MYSQLI_ASSOC);
-			$this->desconectar();
+			$this->desconectar();	
 			if(!(isset($row["respuesta"]))){
 				return('0');
 			}else{
@@ -39,9 +39,8 @@
 		}
 
         public function Modificar($np){
-			$log=$_SESSION["logRec"];
-			$resp=$_SESSION["respBD"];
-			$SQL="UPDATE `usuario` SET `pass_user`='$np' WHERE num_doc='$log' and respuesta='$resp' and estado_cuenta='activo';";
+			
+			$SQL="UPDATE `usuario` SET `pass_user`='$np' WHERE  estado_cuenta='activo';";
 			$resultado = mysqli_query($this->conectar(),$SQL);
 			$this->desconectar();
 			if($resultado==TRUE){
