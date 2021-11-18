@@ -27,7 +27,7 @@
     <div class="card mt-5 " style="width: 18rem;">
         <div class="card-header d-flex justify-content-center "><h5 class="card-title">Cambiar contraseña</h5></div>
         <div class="card-body">
-        <form action="../../../controller/getPassword.php" method="POST">
+        <form action="getPassword.php" method="POST">
         <div class="mb-3">
         <div class="row ">
             <div class="col-4 d-flex align-items-center"><label  for="usuario" class="form-label">Contraseña</label></div>
