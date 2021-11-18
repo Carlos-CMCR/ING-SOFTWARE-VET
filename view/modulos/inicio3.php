@@ -38,7 +38,9 @@
                 $botones = new FormHome;
                 $botones -> FormGestionarUsuario();
                 $botones -> FormGestionarProductos();
+                $botones -> FormCambiarCLave();
                 $botones -> FormCerrarSesion();
+                
             ?>
 
     

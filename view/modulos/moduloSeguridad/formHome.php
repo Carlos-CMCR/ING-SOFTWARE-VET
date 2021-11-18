@@ -36,8 +36,10 @@
         }
         public function FormCambiarClave(){
             ?>
+                
+
                 <form action="../controller/getCambiarClave.php" method="POST">
-                    <input type="submit" name="btnCambiarClave" id="btnCambiarClave" value="Cambiar Clave">
+                <div class="button"><input type="submit" class="btn"  name="btnCambiarClave" id="btnCambiarClave" value="CAMBIAR CONTRASEÑA"></div>
                 </form>
             <?php
         }
