@@ -23,13 +23,25 @@ body {
  }
 
 
- /* ESTILOS INICIO */
+ /* ESTILOS INICIO---- */
  .background-acceso{
     background-image: url("../view/img/background-acceso.jpg");
     background-size:100% auto;
     
 }
-
+.botons {
+    width: 50%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+.card-header{
+    background: #252b37;
+    color: white;
+}
 /*.login {
     width: 100%;
     max-width: 600px;

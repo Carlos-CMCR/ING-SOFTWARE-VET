@@ -22,7 +22,7 @@
         </div>
     </nav>
     
-    <div class=" d-flex justify-content-center">               
+    <div class="d-flex justify-content-center">               
     <div class="card mt-5 " style="width: 18rem;">
         <div class="card-header d-flex justify-content-center "><h5 class="card-title">Iniciar Sesión</h5></div>
         <div class="card-body">
@@ -38,8 +38,12 @@
                 <div class="col-8 "><input type="password"  class="form-control" aria-describedby="passwordHelpBlock" name="password" id="password"> </div>
         </div>
         </div>
+        <div class="mb-2">
         <div class="row">
-                <div class="col-12 d-flex justify-content-center"><input type="submit" class="btn btn-primary"  name="btnIngresar" id="btnIngresar" value="Ingresar"></div>
+                <div class="col-12 d-flex justify-content-center"><input type="submit" class="botons"  name="btnIngresar" id="btnIngresar" value="Ingresar"></div>
+        </div></div>
+        <div class="row ">
+            <a href="formVerificarUsuario.php" class="d-flex justify-content-center" id="links">Recordar Contraseña</a></div>
         </div>
         
     </div>
