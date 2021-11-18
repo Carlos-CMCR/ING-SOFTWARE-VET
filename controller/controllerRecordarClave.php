@@ -31,7 +31,9 @@
                     include_once("../shared/formMensajeSistema.php");
                     $mensaje = new formMensajeSistema;
                     $mensaje ->formMensajeSistema();                           
-                    $mensaje ->formMensajeSistemaShowExito("Su contraseña ha sido cambiada con éxito","<a href='../index.php'>Volver</a>");
+                    $mensaje ->formMensajeSistemaShowExito("Su contraseña ha sido cambiada con éxito","<form action='../view/modulos/moduloSeguridad/formAutenticarUsuario.php' method='POST'>
+            <input type='submit' class='btn btn-link' name='btnAtras' value='Atrás'>
+        </form>");
             }
     
         }
