@@ -20,11 +20,7 @@
             $mensajeo ->formMensajeSistemaShow("El dato no es válido","<form action='../moduloSeguridad/getRecordarClave.php' method='POST'><input type='submit' class='btn btn-link'  name='btnRecordarClave' id='btnRecordarClave' value='Volver'></form>");
 
         }else{
-<<<<<<< HEAD
            
-=======
-            //echo "logeo: ".$log;
->>>>>>> d3c4d8f028f3a6465eac78dda87506907701ff10
             include_once("controllerRecordarClave.php");
             $valida = new controllerRecordarClave;
             $valida -> ValidarLog();
