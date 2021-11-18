@@ -7,17 +7,16 @@
     <link rel="stylesheet" href="../../../styles/stylesLogin.css">
     <title>Ingresar</title>
 </head>
-<body >
+<body class="background-acceso">
 
     
 
 <nav class="menu navbar navbar-expand-lg navbar-light">
         <div class="container">      
-                    <a href=""><img src="view/img/logo.png" alt=""></a>
+                    <a href=""><img src="../../img/logo.png" alt=""></a>
             <div class="collapse navbar-collapse">
                  <div class="navbar-nav ms-auto">
-                 <a href="view/modulos/moduloSeguridad/formAutenticarUsuario.php" class="nav">INGRESAR</a>
-                    <a href="view/modulos/moduloSeguridad/formRegistrarCLiente.php" class="nav">REGISTRARSE</a>
+                 <a href="../../../index.php" class="nav">HOME</a>
                  </div>
             </div>
         </div>
@@ -27,11 +26,23 @@
     <div class="card mt-5 " style="width: 18rem;">
         <div class="card-header d-flex justify-content-center "><h5 class="card-title">Iniciar Sesión</h5></div>
         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="mb-3">
+        <div class="row ">
+            <div class="col-4 d-flex align-items-center"><label  for="usuario" class="form-label">Usuario</label></div>
+            <div class="col-8 "><input type="text" class="form-control" aria-describedby="text"  name="usuario" id="usuario"> </div>
         </div>
-     </div>
+        </div>
+        <div class="mb-3">
+        <div class="row">
+                <div class="col-4 d-flex align-items-center"><label for="password" class="form-label">Password</label> </div>
+                <div class="col-8 "><input type="password"  class="form-control" aria-describedby="passwordHelpBlock" name="password" id="password"> </div>
+        </div>
+        </div>
+        <div class="row">
+                <div class="col-12 d-flex justify-content-center"><input type="submit" class="btn btn-primary"  name="btnIngresar" id="btnIngresar" value="Ingresar"></div>
+        </div>
+        
+    </div>
     </div>
 </div> 
 </div> 
