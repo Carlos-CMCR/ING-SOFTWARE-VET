@@ -204,5 +204,16 @@
 
 		}
 
+		public function actualizarUser($nombre,$apellido,$dni,$celular,$correo){
+			
+			$SQL = "UPDATE `usuario` SET `nombres` = '$nombre',`apellidos` = '$apellido',`celular` = '$celular',`correo` = '$correo' WHERE `usuario`.`num_doc` = $dni";
+			$resultado = mysqli_query($this->conectar(),$SQL);
+			$this->desconectar();		
+				
+	     	if($resultado == true) return (1);
+				else return (0);
+
+		}
+
     }    
 ?>

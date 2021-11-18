@@ -14,5 +14,19 @@ class controllerPerfil{
 		$enviar -> formUsuarioPerfilShow($retornado);
 
 	}
+
+	public function editarDatosPerfil(){
+		$dni = $_SESSION["user"];
+
+		include_once("../model/eUsuario.php");
+		$mostrar = new Usuario;
+		$retornado = $mostrar -> mostrarDatosPerfil($dni);
+
+		include_once("../view/modulos/moduloUsuario/formEditarUsuarioPerfil.php");
+		
+		$enviar = new formEditarUsuarioPerfil;
+		$enviar -> formEditarUsuarioPerfilShow($retornado);
+
+	}
 }
 ?>

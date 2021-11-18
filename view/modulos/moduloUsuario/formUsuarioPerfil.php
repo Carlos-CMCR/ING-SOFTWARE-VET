@@ -26,7 +26,7 @@
                     <a href=""><img src="../../img/logo.png" alt=""></a>
             <div class="collapse navbar-collapse">
                  <div class="navbar-nav ms-auto">
-                    <a href="view/modulos/moduloSeguridad/formRegistrarCLiente.php" class="nav"><i class="fas fa-sign-out-alt"></i>CERRAR SESIÓN</a>
+                    <a href="getCerrarSesion.php" class="nav"><i class="fas fa-sign-out-alt"></i>CERRAR SESIÓN</a>
                  </div>
             </div>
         </div>
@@ -40,7 +40,7 @@
     ?>
     
 
-    <form action="">
+    <form action="getEditarPerfil.php" method="POST">
     <div class="d-flex justify-content-center">               
     <div class="card mt-5 " style="width: 65rem;">
         <div class="card-header d-flex justify-content-center "><h5 class="card-title">Perfil</h5></div>
@@ -77,9 +77,11 @@
         </div>
         <div class="mb-2">
         <div class="row">
-                <div class="col-4 d-flex justify-content-center"><input type="submit" class="botons"  name="btnIngresar" id="btnIngresar" value="Editar"></div>
+            
+                <div class="col-4 d-flex justify-content-center"><input type="submit" class="botons"  name="btnEditar" id="btnIngresar" value="Editar"></div>
                 <div class="col-4 d-flex justify-content-center"><input type="submit" class="botons"  name="btnIngresar" id="btnIngresar" value="Registrar Mascota"></div>
                 <div class="col-4 d-flex justify-content-center"><input type="submit" class="botons"  name="btnIngresar" id="btnIngresar" value="Volver"></div>
+            
         </div></div>
         
         
