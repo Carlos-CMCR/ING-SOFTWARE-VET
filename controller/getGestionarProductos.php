@@ -51,7 +51,9 @@ elseif (isset($_POST['btnAgregarBD'])) {
 		include_once("../shared/formMensajeSistema.php");
 		$mensaje = new formMensajeSistema;
 	    $mensaje ->formMensajeSistema();
-	    $mensaje ->formMensajeSistemaShowExito("El producto se ha agregado correctamente","<a href='../index.php'>Volver Atras</a>");
+	    $mensaje ->formMensajeSistemaShowExito("El producto se ha agregado correctamente","<form action='getGestionarProductos.php' method='POST'>                  
+                            <input class='btn btn-primary' type='submit' name='btnGestionarProductos' value='Atras'>
+                        </form>");
 	} else {
 		include_once("../shared/formMensajeSistema.php");
 		$mensaje = new formMensajeSistema;

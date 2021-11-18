@@ -114,7 +114,7 @@
         public function FormGestionarProductos(){
             ?>
                 <form action="getGestionarProductos.php" method="POST">
-                <div class="button"><input type="submit" class="btn"  name="btnGestionarProductos" id="btnGestionarProductos" value="GESTIONAR PRODUCTO"></div>
+                <div class="button"><input type="submit" class="btn"  name="btnGestionarProductos" id="btnGestionarProductos" value="GESTIONAR SERVICIOS"></div>
                 </form>
             <?php
         }

@@ -40,8 +40,8 @@ class formGestionarProductos extends formulario
                                     <th scope="col">Imagen</th>
                                     <th scope="col">Nombre</th>
                                     <th scope="col">Precio</th>
-                                    <th scope="col">Precio Falso</th>
-                                    <th scope="col">Stok</th>
+                                    <th scope="col">Precio Antes</th>
+                                    <th scope="col">Descripción breve</th>
                                     <th scope="col">Estado</th>
                                     <th scope="col">Descripción</th>
                                     <th  style="width:10%;">Accion</th>
