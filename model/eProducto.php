@@ -21,6 +21,19 @@ class eProducto extends Conecta{
      	if($resultado == true) return (1);
 			else return (0);
 	}
+
+	public function eliminarServicio($idproducto){
+		
+
+		$SQL = "DELETE FROM producto WHERE idproducto = '$idproducto'";
+		$resultado = mysqli_query($this->conectar(),$SQL);
+		$this->desconectar();		
+				
+     	if($resultado == true) return (1);
+			else return (0);
+
+
+	}
 }
 
 ?>

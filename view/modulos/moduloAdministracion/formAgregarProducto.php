@@ -18,26 +18,24 @@ class formAgregarProducto extends formulario
         <center>
             <div class="card w-75 my-4">
                 <div class="card-header">
-                    <h1 class="titulo">Agregar Producto</h1>
+                    <h1 class="titulo">Agregar servicio</h1>
                 </div>
                 <div class="card-body">
                     <form action="getGestionarProductos.php" method="POST">
                                                 
-                        <p>Nombre del producto:</p>
+                        <p>Nombre del servicio:</p>
                         <input type="text" name="txtnombreproducto" id="nombreproducto" value="">
                         <br>
 
-                        <p>Precio real:</p>
+                        <p>Costo:</p>
                         <input type="text" name="txtprecioproducto" id="precioproducto" value="">
                         <br>
 
-                        <p>Precio de promoción:</p>
+                        <p>Costo Antes:</p>
                         <input type="text" name="txtpreciopromo" id="preciopromo" value="">
                         <br>
 
-                        <p>Stok:</p>
-                        <input type="text" name="txtstok" id="stok" value="">
-                        <br>
+                        
 
                         <p>Estado:</p>                        
                         <select name="txtestado">
@@ -46,7 +44,11 @@ class formAgregarProducto extends formulario
                         </select>
                         <br>
 
-                        <p>Descripción:</p>                        
+                        <p>Descripción breve:</p>
+                        <input type="text" name="txtstok" id="stok" value="">
+                        <br>
+
+                        <p>Descripción detallada:</p>                        
                         <textarea name="txtdescripcion" rows="5" cols="80"></textarea>
                         <br>
 
@@ -57,7 +59,7 @@ class formAgregarProducto extends formulario
 
                         <br>
 
-                        <input class="btn btn-primary" type="submit" name="btnAgregarBD" value="Agregar Producto">
+                        <input class="btn btn-primary" type="submit" name="btnAgregarBD" value="Agregar Servicio">
 
                         
                     </form>

@@ -4,7 +4,7 @@ class formGestionarProductos extends formulario
 {
     public function EncabezadoShow()
     {
-        $this->encabezadoShowIni("Gestionar Productos | Vetspa Villa Animal","../img/ico.png");
+        $this->encabezadoShowIni("Gestionar Servicios | Vetspa Villa Animal","../img/ico.png");
     }
     public function formGestionarProductosShow($retornado)
     { ?>
@@ -13,10 +13,10 @@ class formGestionarProductos extends formulario
         <div class="d-flex justify-content-center">
             <div class="card my-4" style="width:80%;">
                 <div class="card-header">
-                    <h1 class="titulo">Gestionar Productos</h1>
+                    <h1 class="titulo">Gestionar Servicios</h1>
                 </div>
                 <div class="card-body">
-                    <p class="card-text">Bienvenido al panel de Gestión de productos</p>
+                    <p class="card-text">Bienvenido al panel de Gestión de Servicios</p>
                     <form action="getGestionarProductos.php" method="POST">
                         <div class="d-flex justify-content">
                             <select name="segunestado" class="form-select form-select-sm w-25">
@@ -29,7 +29,7 @@ class formGestionarProductos extends formulario
                     </form>
                     <div class="div_btn" style="display: flex;">
                         <form action="getGestionarProductos.php" method="post">
-                            <input type="submit" class="btn btn-primary" name="btnAgregar" value="Agregar Producto">
+                            <input type="submit" class="btn btn-primary" name="btnAgregar" value="Agregar nuevo servicio">
                         </form>
                     </div>
 
@@ -79,9 +79,9 @@ class formGestionarProductos extends formulario
                                             <input class="btn btn-success" type=submit name=btnEditarProducto value=Editar>
                                         </form>
 
-                                        <form action="getGestionarUsuario.php" method="post">
-                                            <input type=hidden name=idusuario value='<?php echo $user['idusuario'] ?>'>
-                                            <input class="btn btn-danger" type=submit name=btnEditarUsuario value=Eliminar>
+                                        <form action="getGestionarProductos.php" method="post">
+                                            <input type=hidden name=idproducto value='<?php echo $product['idproducto'] ?>'>
+                                            <input class="btn btn-danger" type=submit name="btnEliminarServicio" value=Eliminar>
                                         </form>
 
                                         
