@@ -10,7 +10,7 @@
 </head>
 <body class="login">
 	<div class="card bg-light mb-3" style="max-width: 20rem">
-<center>
+<center>asdasdas
 	
 			<form  class="form-control" action="../controller/getRegistrarCliente.php" method="POST">
 			<h5 class="form-regitrar__title">Registrar Mascota</h5>
