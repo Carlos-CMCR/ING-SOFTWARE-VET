@@ -12,8 +12,8 @@
                 $mensaje ->formMensajeSistema();                            
                 $mensaje ->formMensajeSistemaShow("El usuario no existe o está inactivo","<form action='../moduloSeguridad/getRecordarClave.php' method='POST'><input type='submit' class='btn btn-link'  name='btnRecordarClave' id='btnRecordarClave' value='Volver'></form>");
             }else{
-                    echo "Esto:".$_SESSION["logRec"];
-                    echo "Respuesta:".$_SESSION["respBD"];                   
+                    //echo "Esto:".$_SESSION["logRec"];
+                    //echo "Respuesta:".$_SESSION["respBD"];                   
                     include_once("../view/modulos/moduloSeguridad/formPreguntaSeguridad.php");
                     $objFormPreSeguridad = new formPreguntaSeguridad;
                     $objFormPreSeguridad -> EncabezadoShow();
