@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse">
                  <div class="navbar-nav ms-auto">
                  <a href="view/modulos/moduloSeguridad/formAutenticarUsuario.php" class="nav"><i class="far fa-user"></i>PERFIL</a>
-                    <a href="view/modulos/moduloSeguridad/formRegistrarCLiente.php" class="nav"><i class="fas fa-sign-out-alt"></i>CERRAR SESIÓN</a>
+                    <a href="getCerrar.php" class="nav"><i class="fas fa-sign-out-alt"></i>CERRAR SESIÓN</a>
                  </div>
             </div>
         </div>
@@ -38,8 +38,8 @@
                 $botones = new FormHome;
                 $botones -> FormGestionarUsuario();
                 $botones -> FormGestionarProductos();
-                $botones -> FormCambiarCLave();
-                $botones -> FormCerrarSesion();
+                $botones -> FormCambiarCLave(); 
+                $botones -> FormCerrarSesion();              
                 
             ?>
 

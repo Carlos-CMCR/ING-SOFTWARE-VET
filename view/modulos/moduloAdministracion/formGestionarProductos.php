@@ -51,7 +51,11 @@ class formGestionarProductos extends formulario
                             foreach ($retornado as $product) { ?>
                                 <tr class="tr">
                                     <td><?php echo $product['idproducto'] ?></td>
-                                    <td><?php echo $product['foto_producto'] ?></td>
+                                    <td>
+                                        <img src="../view/img/<?php echo $product['foto_producto'] ?>">
+                                        
+                                            
+                                        </td>
                                     <td><?php echo $product['nom_producto'] ?></td>
                                     <td><?php echo $product['prec_uni_producto'] ?> </td>
                                     <td><?php echo $product['prec_promo_producto'] ?> </td>
