@@ -24,7 +24,7 @@
 
     <form action="">
     <div class="d-flex justify-content-center">               
-    <div class="card mt-5 " style="width: 35rem;">
+    <div class="card mt-5 " style="width: 65rem;">
         <div class="card-header d-flex justify-content-center "><h5 class="card-title">Perfil</h5></div>
         <div class="card-body">
         <div class="mb-3">
