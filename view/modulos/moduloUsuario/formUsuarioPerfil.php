@@ -77,10 +77,9 @@
         </div>
         <div class="mb-2">
         <div class="row">
-            
+                <div class="col-4 d-flex justify-content-center"><input type="submit" class="botons"  name="btnIngresar" id="btnIngresar" value="Volver" onclick="location='../view/modulos/inicio.php'"></div>
+                <div class="col-4 d-flex justify-content-center"><input type="button" class="botons"  name="btnIngresar" id="btnIngresar" value="Registrar Mascota" onclick="location='../view/modulos/moduloSeguridad/formRegistrarMascota.php'"></div>
                 <div class="col-4 d-flex justify-content-center"><input type="submit" class="botons"  name="btnEditar" id="btnIngresar" value="Editar"></div>
-                <div class="col-4 d-flex justify-content-center"><input type="submit" class="botons"  name="btnIngresar" id="btnIngresar" value="Registrar Mascota"></div>
-                <div class="col-4 d-flex justify-content-center"><input type="submit" class="botons"  name="btnIngresar" id="btnIngresar" value="Volver"></div>
             
         </div></div>
         

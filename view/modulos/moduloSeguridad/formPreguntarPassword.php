@@ -17,14 +17,14 @@
                     <a href=""><img src="../view/img/logo.png" ></a>
             <div class="collapse navbar-collapse">
                  <div class="navbar-nav ms-auto">
-                 <a href="../../../index.php" class="nav">HOME</a>
+                 <a href="../index.php" class="nav">HOME</a>
                  </div>
             </div>
         </div>
     </nav>
     
     <div class="d-flex justify-content-center">               
-    <div class="card mt-5 " style="width: 18rem;">
+    <div class="card mt-5 " style="width: 25rem;">
         <div class="card-header d-flex justify-content-center "><h5 class="card-title">Cambiar contraseña</h5></div>
         <div class="card-body">
         <form action="getPassword.php" method="POST">
