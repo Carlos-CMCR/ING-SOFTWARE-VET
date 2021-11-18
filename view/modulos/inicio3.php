@@ -23,8 +23,8 @@
                     <a href="getBtnLogo.php"><img src="../view/img/logo.png" alt=""></a>
             <div class="collapse navbar-collapse">
                  <div class="navbar-nav ms-auto">
-                 <a href="view/modulos/moduloSeguridad/formAutenticarUsuario.php" class="nav"><i class="far fa-user"></i>PERFIL</a>
-                    <a href="getCerrar.php" class="nav"><i class="fas fa-sign-out-alt"></i>CERRAR SESIÓN</a>
+                 <a href="getPerfil.php" class="nav"><i class="far fa-user"></i>PERFIL</a>
+                    <a href="getCerrarSesion.php" class="nav"><i class="fas fa-sign-out-alt"></i>CERRAR SESIÓN</a>
                  </div>
             </div>
         </div>
@@ -39,7 +39,7 @@
                 $botones -> FormGestionarUsuario();
                 $botones -> FormGestionarProductos();
                 $botones -> FormCambiarCLave(); 
-                $botones -> FormCerrarSesion();              
+                             
                 
             ?>
 
