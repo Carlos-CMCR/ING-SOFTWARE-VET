@@ -1,3 +1,7 @@
+body {
+   background-image: url('../view/img/background-acceso.jpg');
+   background-size: 100% auto;
+}
 
 .container img {
     width: 10%;

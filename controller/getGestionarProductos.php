@@ -27,7 +27,7 @@ elseif (isset($_POST['btnEditarProducto'])) {
 	
 }
 elseif (isset($_POST['btnAgregar'])) {
-	echo "string";
+	
 	include_once("../view/modulos/moduloAdministracion/formAgregarProducto.php");
 	$agregar = new formAgregarProducto;
 	$agregar -> formAgregarProductoShow();
@@ -52,6 +52,31 @@ elseif (isset($_POST['btnAgregarBD'])) {
 		$mensaje = new formMensajeSistema;
 	    $mensaje ->formMensajeSistema();
 	    $mensaje ->formMensajeSistemaShowExito("El producto se ha agregado correctamente","<a href='../index.php'>Volver Atras</a>");
+	} else {
+		include_once("../shared/formMensajeSistema.php");
+		$mensaje = new formMensajeSistema;
+	    $mensaje ->formMensajeSistema();
+	    $mensaje ->formMensajeSistemaShow("Ha ocurrido un error","<a href='../index.php'>Volver Atras</a>");
+	}
+	
+}
+
+// eliminar servicio
+elseif (isset($_POST['btnEliminarServicio'])) {
+	
+	$idproducto= $_POST['idproducto'];;
+
+	include("../model/eProducto.php");
+	$eliminar = new eProducto;
+	$retornado =$eliminar -> eliminarServicio($idproducto);
+
+	if ($retornado ==1) {
+		include_once("../shared/formMensajeSistema.php");
+		$mensaje = new formMensajeSistema;
+	    $mensaje ->formMensajeSistema();
+	    $mensaje ->formMensajeSistemaShowExito("El servicio de ha eliminado completamente de la base de datos","<form action='getGestionarProductos.php' method='POST'>
+                    <input type='submit' class='btn btn-primary' name='btnGestionarProductos' id='btnGestionarProductos' value='Atrás'>
+                </form>");
 	} else {
 		include_once("../shared/formMensajeSistema.php");
 		$mensaje = new formMensajeSistema;
