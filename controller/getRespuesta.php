@@ -25,9 +25,7 @@
             if($respuesta==$_SESSION["respBD"]){
 
                 include_once("../view/modulos/moduloSeguridad/formCambiarPassword.php");
-                $objFormPreSeguridad = new formCambiarPassword;
-                $objFormPreSeguridad -> EncabezadoShow();
-                $objFormPreSeguridad -> FormCambiarPassword();
+                
                
             
             }else{
