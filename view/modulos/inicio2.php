@@ -21,8 +21,8 @@
                     <a href=""><img src="../view/img/logo.png" alt=""></a>
             <div class="collapse navbar-collapse">
                  <div class="navbar-nav ms-auto">
-                 <a href="../view/modulos/moduloUsuario/formUsuarioPerfil.php" class="nav"><i class="far fa-user"></i>PERFIL</a>
-                    <a href="view/modulos/moduloSeguridad/formRegistrarCLiente.php" class="nav"><i class="fas fa-sign-out-alt"></i>CERRAR SESIÓN</a>
+                 <a href="getPerfil.php" class="nav"><i class="far fa-user"></i>PERFIL</a>
+                    <a href="getCerrarSesion.php" class="nav"><i class="fas fa-sign-out-alt"></i>CERRAR SESIÓN</a>
                  </div>
             </div>
         </div>

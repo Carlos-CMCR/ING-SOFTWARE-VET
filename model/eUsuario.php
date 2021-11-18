@@ -190,5 +190,19 @@
 			else return (0);
 		}
 
+		public function mostrarDatosPerfil($dni){
+			
+
+			$SQL = "SELECT * FROM usuario WHERE num_doc= '$dni'";
+			$resultado = mysqli_query($this->conectar(),$SQL);
+			/*$num_registros = mysqli_num_rows($resultado);*/
+			$this->desconectar();
+		//	$respuesta ->fetch_all(MYSQLI_ASSOC);
+			$data = $resultado -> fetch_all(MYSQLI_ASSOC);
+     		return $data;
+
+
+		}
+
     }    
 ?>

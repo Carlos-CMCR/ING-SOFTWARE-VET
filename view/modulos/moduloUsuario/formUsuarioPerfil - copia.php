@@ -1,15 +1,3 @@
-<?php
-    class formUsuarioPerfil{
-        public function formUsuarioPerfilShow($retornado){
-
-            
-            
-        }
-
-
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,6 +9,8 @@
     <link rel="stylesheet" href="../../../styles/stylesLogin.css">
 </head>
 <body>
+    
+
     <nav class="menu navbar navbar-expand-lg navbar-light">
         <div class="container">      
                     <a href=""><img src="../../img/logo.png" alt=""></a>
@@ -32,14 +22,6 @@
         </div>
     </nav>
 
-    <?php
-    foreach ($retornado as $atributo ) {
-            
-            
-    }
-    ?>
-    
-
     <form action="">
     <div class="d-flex justify-content-center">               
     <div class="card mt-5 " style="width: 65rem;">
@@ -48,31 +30,31 @@
         <div class="mb-3">
         <div class="row ">
             <div class="col-4 d-flex align-items-center"><label  for="nombres" class="form-label">Nombres</label></div>
-            <div class="col-8 "><input type="text" class="form-control" aria-describedby="text" disabled="disabled"  name="nombres" id="nombres" value="<?php echo $atributo['nombres']; ?>"> </div>
+            <div class="col-8 "><input type="text" class="form-control" aria-describedby="text"  name="nombres" id="nombres"> </div>
         </div>
         </div>
         <div class="mb-3">
         <div class="row ">
             <div class="col-4 d-flex align-items-center"><label  for="apellidos" class="form-label">Apellidos</label></div>
-            <div class="col-8 "><input type="text" class="form-control" aria-describedby="text" disabled="disabled"  name="apellidos" id="apellidos" value="<?php echo $atributo['apellidos']; ?>"> </div>
+            <div class="col-8 "><input type="text" class="form-control" aria-describedby="text"  name="apellidos" id="apellidos"> </div>
         </div>
         </div>
         <div class="mb-3">
         <div class="row ">
             <div class="col-4 d-flex align-items-center"><label  for="Documento" class="form-label">Documento</label></div>
-            <div class="col-8 "><input type="text" class="form-control" aria-describedby="text" disabled="disabled" name="Documento" id="Documento" value="<?php echo $atributo['num_doc']; ?>"> </div>
+            <div class="col-8 "><input type="text" class="form-control" aria-describedby="text"  name="Documento" id="Documento"> </div>
         </div>
         </div>
         <div class="mb-3">
         <div class="row ">
             <div class="col-4 d-flex align-items-center"><label  for="Celular" class="form-label">Celular</label></div>
-            <div class="col-8 "><input type="number" class="form-control" aria-describedby="text" disabled="disabled"  name="Celular" id="Celular" value="<?php echo $atributo['celular']; ?>"> </div>
+            <div class="col-8 "><input type="number" class="form-control" aria-describedby="text"  name="Celular" id="Celular"> </div>
         </div>
         </div>
         <div class="mb-3">
         <div class="row">
                 <div class="col-4 d-flex align-items-center"><label for="correo" class="form-label">Correo</label> </div>
-                <div class="col-8 "><input type="email"  class="form-control" aria-describedby="passwordHelpBlock" name="correo" disabled="disabled" id="correo" value="<?php echo $atributo['correo']; ?>"> </div>
+                <div class="col-8 "><input type="email"  class="form-control" aria-describedby="passwordHelpBlock" name="correo" id="correo"> </div>
         </div>
         </div>
         <div class="mb-2">
@@ -86,11 +68,6 @@
     </div>
     </div></div>
     </form>
-
-
-
-
-
 </body>
 </html>
     
