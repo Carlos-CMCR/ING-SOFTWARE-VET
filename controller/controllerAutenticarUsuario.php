@@ -44,7 +44,7 @@
                         include_once("../shared/formMensajeSistema.php");
                         $mensaje = new formMensajeSistema;
                         $mensaje ->formMensajeSistema();
-                        $mensaje ->formMensajeSistemaShow("Usuario no encontrado","<a href='../index.php'>Ir al inicio</a>");
+                        $mensaje ->formMensajeSistemaShow("Usuario no encontrado","<a href='../view/modulos/moduloSeguridad/formAutenticarUsuario.php'>Atrás</a>");
                     break;
             }            
         }

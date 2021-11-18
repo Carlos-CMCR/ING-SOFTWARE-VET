@@ -19,7 +19,7 @@
             include_once("../shared/formMensajeSistema.php");
             $mensajeo = new formMensajeSistema;
             $mensajeo ->formMensajeSistema();
-            $mensajeo ->formMensajeSistemaShow("Los datos son invalidos","<a href='../view/modulos/moduloSeguridad/formAutenticarUsuario.php'>Ir al inicio</a>");
+            $mensajeo ->formMensajeSistemaShow("Los datos son invalidos","<a href='../view/modulos/moduloSeguridad/formAutenticarUsuario.php'>Atrás</a>");
 
         }else{
             session_start();
@@ -34,7 +34,7 @@
         include_once("../shared/formMensajeSistema.php");
         $mensaje = new formMensajeSistema;
         $mensaje ->formMensajeSistema();
-        $mensaje ->formMensajeSistemaShow("Acceso no permitido","<a href='../view/modulos/moduloSeguridad/formAutenticarUsuario.php'>Ir al inicio</a>");
+        $mensaje ->formMensajeSistemaShow("Acceso no permitido","<a href='../view/modulos/moduloSeguridad/formAutenticarUsuario.php'>Atrás</a>");
     }
 
 ?>
