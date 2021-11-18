@@ -12,7 +12,7 @@
         $log = trim($_POST['usuario']);
         $_SESSION["user"]=$log;
         $resultado = validarcampolog($log);
-        echo $_SESSION["logRec"];
+        
 
         if($resultado == 0){
             include_once("../shared/formMensajeSistema.php");

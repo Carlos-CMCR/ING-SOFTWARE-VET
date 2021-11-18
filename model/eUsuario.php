@@ -26,8 +26,8 @@
 		}
 
         public function VerificarLog(){
-			$log=$_SESSION["logRec"];
-			$SQL="SELECT respuesta FROM usuario WHERE num_doc='$log' and estado_cuenta='activo';";
+			
+			$SQL="SELECT respuesta FROM usuario WHERE  estado_cuenta='activo';";
 			$resultado = mysqli_query($this->conectar(),$SQL);
 			$row = mysqli_fetch_array($resultado, MYSQLI_ASSOC);
 			$this->desconectar();	
