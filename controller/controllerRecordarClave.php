@@ -12,8 +12,7 @@
                 $mensaje ->formMensajeSistema();                            
                 $mensaje ->formMensajeSistemaShow("El usuario no existe o está inactivo","<form action='../moduloSeguridad/getRecordarClave.php' method='POST'><input type='submit' class='btn btn-link'  name='btnRecordarClave' id='btnRecordarClave' value='Volver'></form>");
             }else{
-                                
-                    include_once("../view/modulos/moduloSeguridad/formPreguntaSeguridad.php");
+                    header("Location: ../view/principal.php?action=formPreguntaSeguridad"); 
                     
             }
         }
@@ -31,8 +30,8 @@
                     include_once("../shared/formMensajeSistema.php");
                     $mensaje = new formMensajeSistema;
                     $mensaje ->formMensajeSistema();                           
-                    $mensaje ->formMensajeSistemaShowExito("Su contraseña ha sido cambiada con éxito","<form action='../view/modulos/moduloSeguridad/formAutenticarUsuario.php' method='POST'>
-            <input type='submit' class='btn btn-link' name='btnAtras' value='Atrás'>
+                    $mensaje ->formMensajeSistemaShowExito("Su contraseña ha sido cambiada con éxito","<form action='../index.php' method='POST'>
+            <input type='submit' class='btn btn-link' name='btnAtras' value='Ok'>
         </form>");
             }
     

@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="../../../styles/stylesRegistro.css">
-  <title>Registrar</title>
- </head>
-
-<body class="background-acceso" >
-	<nav class="menu navbar navbar-expand-lg navbar-light">
-        <div class="container">      
-                    <a href=""><img src="../../img/logo.png" alt=""></a>
-            <div class="collapse navbar-collapse">
-                 <div class="navbar-nav ms-auto">
-                 <a href="../../../index.php" class="nav">HOME</a>
-                 </div>
-            </div>
-        </div>
-    </nav>
-	
+<?php 
+headerForm("Registrar");
+?>
 	
     <div class="d-flex justify-content-center">               
     <div class="card mt-5 " style="width: 22rem;">
@@ -28,7 +9,7 @@
         <div class="mb-3">
         <div class="row ">
 
-	<form class="d-flex justify-content-center"  action="../../../controller/getRegistrarCliente.php" method="POST">
+	<form class="d-flex justify-content-center"  action="../controller/getRegistrarCliente.php" method="POST">
 
 
 	<section class="container">
@@ -72,13 +53,16 @@
         <div class="row">
                 <div class="col-12 d-flex justify-content-center"><input type="submit" class="botons"  name="btnRegistrar" id="btnIngresar" value="Registar"></div>
         </div></div>
+        </form>
 
 		<div class="row ">
-            <a href="formAutenticarUsuario.php" class="d-flex justify-content-center" id="links">¿Ya tengo Cuenta?</a></div>
-        </div>
+            <a href='../view/principal.php?action=formAutenticarUsuario' class="d-flex justify-content-center" id="links">¿Ya tengo Cuenta?</a></div>
+        
 
    
-  </section>
+        </section> </div></div></div></div>
 	
-</body>
-</html>
+ 
+<?php 
+footerForm(); 
+?>

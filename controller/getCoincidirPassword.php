@@ -20,7 +20,7 @@
             include_once("../shared/formMensajeSistema.php");
             $mensajeo = new formMensajeSistema;
             $mensajeo ->formMensajeSistema();
-            $mensajeo ->formMensajeSistemaShow("Los datos deben contener más de 8 caracteres","<form action='../moduloSeguridad/getRecordarClave.php' method='POST'><input type='submit' class='btn btn-link'  name='btnRecordarClave' id='btnRecordarClave' value='Volver'></form>");
+            $mensajeo ->formMensajeSistemaShow("Los datos deben contener más de 8 caracteres","<a href='../view/principal.php?action=formCambiarPassword'>Atrás</a>");
 
         }else{
             if($np==$rp){
@@ -33,8 +33,7 @@
                 include_once("../shared/formMensajeSistema.php");
                 $mensajeo = new formMensajeSistema;
                 $mensajeo ->formMensajeSistema();
-                $mensajeo ->formMensajeSistemaShow("Las contraseñas ingresadas no coinciden","<form action='../moduloSeguridad/getRecordarClave.php' method='POST'><input type='submit' class='btn btn-link'  name='btnRecordarClave' id='btnRecordarClave' value='Volver'></form>");
-            }
+                $mensajeo ->formMensajeSistemaShow("Las contraseñas ingresadas no coinciden","<a href='../view/principal.php?action=formCambiarPassword'>Atrás</a>");}
         }
     }else{
         include_once("../shared/formMensajeSistema.php");

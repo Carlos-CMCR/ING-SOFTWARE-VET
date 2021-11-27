@@ -18,13 +18,12 @@
             include_once("../shared/formMensajeSistema.php");
             $mensajeo = new formMensajeSistema;
             $mensajeo ->formMensajeSistema();
-            $mensajeo ->formMensajeSistemaShow("No introdujo ninguna respuesta","<form action='../moduloSeguridad/getRecordarClave.php' method='POST'><input type='submit' class='btn btn-link'  name='btnRecordarClave' id='btnRecordarClave' value='Volver'></form>");
-
+            $mensajeo ->formMensajeSistemaShow("No introdujo ninguna respuesta","<a href='../view/principal.php?action=formPreguntaSeguridad'>Atrás</a>");
         }else{
 
             if($respuesta==$_SESSION["respBD"]){
 
-                include_once("../view/modulos/moduloSeguridad/formCambiarPassword.php");
+                header("Location: ../view/principal.php?action=formCambiarPassword"); 
                 
                
             
@@ -33,8 +32,7 @@
                  include_once("../shared/formMensajeSistema.php");
                 $mensaje = new formMensajeSistema;
                 $mensaje ->formMensajeSistema();                           
-                $mensaje ->formMensajeSistemaShow("La respuesta es incorrecta","<form action='../moduloSeguridad/getRecordarClave.php' method='POST'><input type='submit' class='btn btn-link'  name='btnRecordarClave' id='btnRecordarClave' value='Volver'></form>");
-
+                $mensaje ->formMensajeSistemaShow("La respuesta es incorrecta","<a href='../view/principal.php?action=formPreguntaSeguridad'>Atrás</a>");
                 
             }
         }

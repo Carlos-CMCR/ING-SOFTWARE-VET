@@ -18,8 +18,7 @@
             include_once("../shared/formMensajeSistema.php");
             $mensajeo = new formMensajeSistema;
             $mensajeo ->formMensajeSistema();
-            $mensajeo ->formMensajeSistemaShow("El dato no es válido","<form action='../moduloSeguridad/getRecordarClave.php' method='POST'><input type='submit' class='btn btn-link'  name='btnRecordarClave' id='btnRecordarClave' value='Volver'></form>");
-
+            $mensajeo ->formMensajeSistemaShow("El dato no es válido","<a href='../view/principal.php?action=formVerificarUsuario'>Atrás</a>");
         }else{
            
             include_once("controllerRecordarClave.php");

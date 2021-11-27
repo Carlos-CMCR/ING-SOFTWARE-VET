@@ -12,7 +12,7 @@ class controllerRegistro{
 			include_once("../shared/formMensajeSistema.php");
             $mensaje = new formMensajeSistema;
             $mensaje ->formMensajeSistema();
-            $mensaje ->formMensajeSistemaShowExito("Registro existoso, actualiza la página e ingresa con tu nuevo usuario","<a href='../index.php'>Atrás</a>");
+            $mensaje ->formMensajeSistemaShowExito("Registro existoso, actualiza la página e ingresa con tu nuevo usuario","<a href='../index.php'>Ok</a>");
 		} elseif ($result==0) {
 			include_once("../shared/formMensajeSistema.php");
             $mensaje = new formMensajeSistema;

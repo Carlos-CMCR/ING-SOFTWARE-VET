@@ -22,12 +22,12 @@
 			include_once("../shared/formMensajeSistema.php");
             $mensaje = new formMensajeSistema;
             $mensaje ->formMensajeSistema();
-            $mensaje ->formMensajeSistemaShow("Ingrese todos los campos","<a href='../view/modulos/moduloSeguridad/formRegistrarCLiente.php'>Atrás</a>");
+            $mensaje ->formMensajeSistemaShow("Ingrese todos los campos","<a href='../view/principal.php?action=formRegistrarCliente'>Atrás</a>");
 		}elseif (!isset($_POST['check'])) {
 			include_once("../shared/formMensajeSistema.php");
             $mensaje = new formMensajeSistema;
             $mensaje ->formMensajeSistema();
-            $mensaje ->formMensajeSistemaShow("No ha acepado los términos y condiciones","<a href='../view/modulos/moduloSeguridad/formRegistrarCLiente.php'>Atrás</a>");
+            $mensaje ->formMensajeSistemaShow("No ha acepado los términos y condiciones","<a href='../view/principal.php?action=formRegistrarCliente'>Atrás</a>");
 		}
 		 elseif (filter_var($correo, FILTER_VALIDATE_EMAIL)){
 
@@ -47,14 +47,14 @@
 				include_once("../shared/formMensajeSistema.php");
 		            $mensaje = new formMensajeSistema;
 		            $mensaje ->formMensajeSistema();
-		            $mensaje ->formMensajeSistemaShow("Ingrese correctamente las contraseñas","<a href='../view/modulos/moduloSeguridad/formRegistrarCLiente.php'>Atrás</a>");
+		            $mensaje ->formMensajeSistemaShow("Ingrese correctamente las contraseñas","<a href='../view/principal.php?action=formRegistrarCliente'>Atrás</a>");
 			}
 			
 		}else{
 			include_once("../shared/formMensajeSistema.php");
             $mensaje = new formMensajeSistema;
             $mensaje ->formMensajeSistema();
-            $mensaje ->formMensajeSistemaShow("Correo inválido","<a href='../view/modulos/moduloSeguridad/formRegistrarCLiente.php'>Atrás</a>");
+            $mensaje ->formMensajeSistemaShow("Correo inválido","<a href='../view/principal.php?action=formRegistrarCliente'>Atrás</a>");
 		}
 
 

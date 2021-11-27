@@ -11,5 +11,8 @@
 	require_once("controller/principal.controller.php");
 	$principal = new ControllerPrincipal();
 	$principal -> ctrPrincipal();
+
+	
+	
 	
 ?>

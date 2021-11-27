@@ -55,3 +55,18 @@ body {
  }*/
  
 
+
+ /*TEMPLATES*/
+   footer {
+      
+      background-color: #252b37;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 3.5rem;
+      color: white;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+ 
+
